@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #intro {
   width: 100%;
-  height: 100vh;
+  height: 45vh;
   background: linear-gradient(45deg, #1de099, #1dc8cd);
   position: relative;
 }
@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#intro .btn-get-started {
+/* #intro .btn-get-started {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -200,9 +200,9 @@ h1, h2, h3, h4, h5, h6 {
 #intro .btn-get-started:hover {
   color: #1dc8cd;
   background: #fff;
-}
+} */
 
-#intro .product-screens {
+/* #intro .product-screens {
   position: absolute;
   left: 0;
   right: 0;
@@ -279,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
   #intro .product-screens .product-screen-2, #intro .product-screens .product-screen-3 {
     display: none;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Navigation Menu

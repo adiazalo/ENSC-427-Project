@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Blockchain Simulation</title>
+  <title>IoT: Analysis of Zigbee Network Performance</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -65,7 +65,8 @@
   <section id="intro">
 
     <div class="intro-text">
-      <h2>Blockchain Simulation</h2>
+      <h2>What is IoT?</h2>
+      <h3>With Analysis of Zigbee Network Performance</h3>
       <p>By Jeremy Leung & Alfonso Diaz</p>
     </div>
 
@@ -98,16 +99,19 @@
           <h3 class="section-title">About</h3>
           <span class="section-divider"></span>
           <p class="section-description">
-            A Blockchain works as a decentralized online ledger. It is a new type of database where instead of residing on a single server in a Data Centre, it is installed on individual terminals of the users of the database. When a change in the database wants to be made (e.g. a transaction of cryptocurrency between users), a request for change will propagate through the blockchain network. When a certain percentage of terminals validate this transaction, the change is made.
+            Although the ‘Internet of Things’ (IoT) is a term that has been utilized since 1999 [1], it has recently become one of the trendiest topics in the world of technology. The Internet of Things can be defined as “a global infrastructure for the information society, enabling advanced services by interconnecting (physical and virtual) things based on existing and evolving interoperable information and communication technologies” [2]. This essentially means that the interconnectivity of devices with the internet has allowed those devices to go beyond their technological limit and in turn, advance the way humans live and operate. For example, an early and common form of an IoT application is found in Electrical Utilities where “using sensors to monitor equipment [has helped] customers reduce energy bills” [3]. Going even further, IoT is applicable in nearly every industry such as advancing the way we farm, home automation for efficiency, and even used in human bodies to monitor and determine health risks. <br/><br/>
+            
+            Although the IoT sounds simple and has many applications, developing IoT devices is harder than one thinks. There are potential hazards that developers must consider before shipping out an IoT product such as issues with privacy and security, complicated IoT devices that are not easily handled, and most importantly, battery life. According to the Harvard Business Review, the “miniaturization of sensors and communications chips have made it possible for more than 10 billion devices to be networked” to be used for IoT applications [5]. The key point to take away from this quote is how the miniaturization of sensors and communication chips also affects the rest of the solution as it now requires that the size of the battery be reduced as well. As such, it is vital to develop the IoT solution with a smaller battery in mind, namely using a low-power communication protocol like Bluetooth Low Energy rather than the original Bluetooth. <br/><br/>
+
           </p>
           <p class="section-description">
-          Through this project we will simulate this process in ns-3 and demonstrate why blockchain could be used to replace most the centralized networks currently in use in the Internet.
+            To analyze the behavior and limit of low-power communication protocols for IoT devices, this project goes over one of the leading lower-power communication protocols that is utilized, Zigbee. The OPNET Riverbed Modeler shall be used to simulate the behavior of the protocol and we will be analyzing the performance of Zigbee such as the simulated traffic, throughput, delay, and error rate in different scenarios. The goal is to detail out the performance and limits of Zigbee.
           </p>
         </div>
 
         <div class="row">
           <div class="col-lg-6 about-img" data-aos="fade-right">
-            <img src="img/bitcoin.jpg" alt="">
+            <img src="img/IoT.png" alt="">
           </div>
 
           <div class="col-lg-6 content" data-aos="fade-left">
@@ -119,12 +123,11 @@
             </p>
 
             <ul>
-              <li><i class="ion-android-checkmark-circle"></i> A. Gervais. “Bitcoin Simulator” Internet: https://github.com/arthurgervais/Bitcoin-Simulator, Oct. 13, 2016 [Jan. 22, 2018].</li>
-              <li><i class="ion-android-checkmark-circle"></i> G. Wood. "Ethereum: A secure decentralised generalised transaction ledger." Ethereum Project Yellow Paper 151, 2014.</li>
-              <li><i class="ion-android-checkmark-circle"></i> A. Prut. "A NExt-Generation Smart Contract and Decentralized Application Platform" Ethereum White Paper, 2017.</li>
-              <li><i class="ion-android-checkmark-circle"></i> A. Dorri, et al. "LSB: A Lightweight Scalable BlockChain for IoT Security and Privacy", Dec. 8, 2017.</li>
-              <li><i class="ion-android-checkmark-circle"></i> M. Iansiti and K. R. Lakhani. "The Truth About Blockchain", Internet: https://hbr.org/2017/01/the-truth-about-blockchain, Jan. 2017 [Jan. 11, 2018].</li>
-              <li><i class="ion-android-checkmark-circle"></i> G. Saptarshi. " An IoT simulator in NS3 and a key-based authentication architecture for IoT devices using blockchain", M.S. thesis, Dept. Comp Sc and Eng.  Indian Iinstitute of Technology Kanpur, 2017.</li>
+              <li><i class="ion-android-checkmark-circle"></i> International Telecommunication Union (ITU), “Internet of Things Global Standards Initiative”, 2018. [Online]. Avaliable: https://www.itu.int/en/ITU-T/gsi/iot/Pages/default.aspx. [Accessed March 2, 2018].</li>
+              <li><i class="ion-android-checkmark-circle"></i> E. Brown, “Who Needs the Internet of Things?”, September 13, 2016. [Online]. <br/> Available: https://www.linux.com/news/who-needs-internet-things. [Accessed March 2, 2018].</li>
+              <li><i class="ion-android-checkmark-circle"></i> Harvard Business Review, “Internet Of Things: Science fiction of business fact?”, Harvard Business School Publishing, Harvard Business Review Analytic Services Report, 2014.</li>
+              <li><i class="ion-android-checkmark-circle"></i> L. Columbus, “2017 Roundup Of Internet Of Things Forecasts”, Forbes, December 10, 2017. [Online]. Avaliable: https://www.forbes.com/sites/louiscolumbus/2017/12/10/2017-roundup-of-internet-of-things-forecasts [Accessed March 2, 2018].</li>
+              <li><i class="ion-android-checkmark-circle"></i> K. Ashton, “That 'Internet of Things' Thing”, RFID Journal, June 22, 2009. [4986], <br/>Available: http://www.rfidjournal.com/ [Accessed Mar, 2, 2018].</li>
 
             </ul>
           </div>
